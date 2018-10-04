@@ -1,0 +1,32 @@
+html {
+  background: url("../images/bread.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  text-align:justify;
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Georgia;
+
+}
+
+header {
+  text-align: center;
+}
+
+.box {
+  border: black solid 1px;
+  margin: 0% 10% 0% 10%;
+  padding: 5px 15px 5px 15px;
+}
+
+#lastbox {
+  margin-bottom: 25px;
+}

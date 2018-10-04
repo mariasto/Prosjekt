@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+    <head>
+        <title>P2 - Design</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/P2.css">
+
+    </head>
+    <body>
+      <header>
+        <br>
+        <h1>P2 - Design</h1>
+      </header>
+        <section class="box">
+            <h3>1. Header: Tittel, laget av, dato</h3>
+            <p><b>Tittel:</b> Waagans Bakeri </p>
+            <p><b>Oss:</b> Ingrid Marie Johansen, Maria Storødegård, Solveig Aune, Jane Wiik Larsen og Åse Håtveit.</p>
+            <p><b>Dato:</b> 03.10.2018</p>
+        </section>
+
+        <section class="box">
+            <h3>2. Administrative detaljer</h3>
+            <p><b>Klient:</b> Waagans bakeri. Dette er et lokalt bakeri på Tynset, hvor moren til Jane jobber. De har allerede facebook- og instagramside for bakeriet, i tillegg til en nettside hvor man kan bestille varer fra bakeriet.</p>
+            <p><b>Kontakt:</b> Anne Waagan</p>
+        </section>
+
+        <section class="box">
+          <h3>3. Formål og endelige mål</h3>
+          <b>Mål:</b>
+          <p>Dette skal være en nettside for et lokalt bakeri, med informasjon og mulighet for bestilling. Vi skal fokusere på brukervennlighet slik at folk med lite bakgrunn innenfor IT lett også kan finne fram på siden. Dette skal vi gjøre ved å ha konkret informasjon som gjør det lett å finne det de leter etter. Nettsidens design skal ivareta det “gammeldagse” preget bakeriet har i sine lokaler.</p>
+          <br>
+          <b>Hvordan skal vi nå målene?</b>
+          <p>Målet med siden er å spre informasjon om bakeriet. Hensikten er ikke å måtte tilbringe mye tid på siden, men å få tak i den informasjonen brukeren leter etter raskt. Dette kan vi gjøre ved å gi brukeren muligheten til å komme seg rundt overalt med kun ett klikk. I tillegg skal hver side være oversiktlig og inneholde en begrenset mengde informasjon. Dette kravet vil blant annet påvirke skriftstørrelse og andre designvalg. Vi vil ta flittig i bruk bilder i diverse deler av websiden som inspirasjon til brukerne.</p>
+        </section>
+
+        <section class="box">
+            <h3>4. Navigasjonsstruktur</h3>
+            <p>Vi har valgt å bruke navigasjons strukturen clique, slik at brukeren kan nå alle de forskjellige sidene fra hvilken som helst side, som vist på tegningen under. Dette valget er for å holde fokuset på websiden enkelt og oversiktlig. Vi legger vekt på at alt kan nås på ett klikk med tanke på at målgruppen hovedsakelig består av eldre uten særlig IT-kompetanse, som blir mulig med denne navigasjonsstrukturen. Når brukeren kommer inn på hjemmesiden skal han/hun ha enkel tilgang til en meny som vises uten at du trenger å klikke på noe (denne skal være lik for alle undersidene). Vi har ingen skjulte knapper eller nøstede linker som fører til andre sider enn det som vises i navigasjonsbaren, med unntak av link til facebook og instagram i footeren. Enkelte knapper kan føre deg lenger ned på den daværende siden, men skal ikke linke deg til andre sider. </p>
+
+            <img class="hele" src="images/navigasjon.jpg" alt="Navigasjon fra side til side.">
+            <p class="bildetekst">Bilde 1: navigasjonsstruktur på websiden.</p>
+        </section>
+
+        <section class="box">
+            <h3>5. Layout og utseende</h3>
+            <p>Under er en full plan for hvordan vi har valgt å style css-filen, og begrunnelser for disse valgene. </p>
+
+            <b>Fonts</b>
+            <ul>
+              <li>Paragrafer:
+                <ul>
+                  <li>Skrifttype: georgia</li>
+                  <li>Skriftstørrelse: 20px</li>
+                </ul>
+              </li>
+              <li>Overskrifter:
+              <ul>
+                <li>Vi skal bruke google-fonten <i>Satisfy</i>.</li>
+                <li>Skriftstørrelse: 30px</li>
+              </ul>
+            </li>
+          </ul>
+            <b>Farger</b>
+              <ul>
+                <li>Overskrifter: #633714</li>
+                <li>Paragrafer: #373737</li>
+                <li>Body: #f9f2ec</li>
+                <li>Linker:
+                  <ul>
+                    <li>I navigasjonsbar: mørk grå</li>
+                    <li>Holder over(hover): lys grå</li>
+                    <li>Aktiv: lik som i overskrifter</li>
+                  </ul>
+                </li>
+                <li>Tekstbokser:#F1D3A9. Samme fargekode som strået i logoen.</li>
+              </ul>
+            </li>
+            <p><b>Bakgrunnsbilde:</b> statisk bilde av bord med mel på; bakgrunn.jpg</p>
+            <p><b>Banner:</b> "Waagans" sentrert med hvit bakgrunn</p>
+            <p><b>Navbar:</b> Posisjonen skal være øverst på siden, rett under logoen. Vi skal lage den slik at den siden du er inne på får en beige firkant rundt og bold tekst. (Altså at knappen blir sånn etter du har trykket på den, slik som på "om oss" -knappen på bildet under.</p>
+          </ul>
+
+          <img class="hele" src="images/header.jpg" alt="Bilde av banner">
+          <p class="bildetekst">Bilde 2: header. Logo og navigasjonsbar.</p>
+          <br><br>
+          <b>Footer</b>
+          <ul>
+            <li>Innhold: kontaktinfo, ikoner som linker til Facebook og Instagramsidene til bakeriet.</li>
+            <li>Stil: I utgangsunktet lik som nav-baren. Footeren skal holde seg på bunnen av siden til enhver tid, ikke i bunnen av browser-vinduet.</li>
+          </ul>
+
+          <img class="hele" src="images/footer.jpg" alt="Bilde av footer">
+          <p class="bildetekst">Bilde 3: footer</p>
+
+          <br>
+          <p><b>Hvordan designet hjelper oss å nå målene vi har satt for nettsiden og dens målgruppe:</b></p>
+          <p><u>Med tanke på stil/uttrykk</u></p>
+          <p>Designet vi har valgt får fram det  tradisjonelle og gammeldagse vi er ute etter. Vi tar opp farger fra logoen til bakeriet, og bruker de  i overskrifter og bakgrunner. Dette gir et helhetlig og sammenhengende inntrykk av siden, og står i stil med identiteten til bakeriet selv. Dette håper vi kan bli både estetisk og funksjonelt. Fonten vi har valgt på overskriftene ligner veldig på logoen - her igjen for å gi et helhetlig inntrykk. Bildene vi legger inn kommer til å få ta mye plass, noe som gjør de til blikkfang og lokker leseren til bakeriet. </p>
+          <p><u>Med tanke på tilgjengelighet:</u></p>
+          <p>Vi har valgt å bruke ganske stor skriftstørrelse på all tekst, noe som gjør det lettere å lese innholdet på nettsiden.Vi bruker farger for å gjøre knapper tydeligere og mer intuitive. Det vil si at brukeren vil få respons i hva de velger å trykke på - de har dermed mer kontroll i sidene de besøker. Blant annet vil den siden man er inne på være markert i menyen, slik at man vet hvilken av sidene man er på. Linkene i menyen skifter farge, slik at det er lett å forstå at dette er en ‘knapp’ man kan trykke på. Bildene er konsentrert på de sidene der det er relevant, f.eks. sortiment, hjem siden og allergier. Bestillingsiden og Om oss siden handler mer om innholdet, og vil inneholde mindre bilder.</p>
+
+        </section>
+
+        <section class="box">
+            <h3>6. Innhold</h3>
+            <p>Vi skal ha med disse sidene på websiden vår:</p>
+
+            <h4>1. Hjem - <i>hjem.html</i></h4>
+            <p>Hjem-siden er den første siden brukeren vil bli introdusert til når de kommer til nettsiden. Her tenker vi at brukeren ikke skal trenge å scrolle langt nedover for å finne informasjon, men heller få et overblikk over hva bakeriet tilbyr. Dette ønsker vi å få frem ved å ha et stort slideshow med bilder rett under nav-baren, på samme plassering som du kan se bildet av kakene på illustrasjonen under. Bildene i slideshowet skal være bilder som gjør brukeren interessert i bakeriet, og forhåpentligvis lyst til å besøke det.</p>
+            <p>For å få frem de spesifikke tingene bakeriet gjør, skal vi ha små tekstbokser med kort informasjon om nyheter eller gode anmeldelser av bakeriet, over relevante bilder. Det eksempelet som står på bildet under er en anmeldelse som står på facebook fra en av bakeriets kunder. Vi tenker også å inkludere nyheter som at de har begynt med påsmurt matpakke, bestilling av bryllupskaker etc.</p>
+            <p>Funksjonen med hjem-siden er å gi brukeren et visuelt overblikk over hva bakeriet kan tilby, og hvordan andre kunders opplevelser med bakeriet har vært. Denne siden skal gjøre brukeren nysgjerrig til å finne ut mer om bakeriet, og dermed trykke seg inn på de andre sidene i nav-baren.</p>
+              <img src="images/hjem.jpg" alt="Bilde av hjem-siden">
+              <p class ="bildetekst">Bilde 4: Hjem-siden.</p>
+            <br>
+
+            <h4>2. Om oss - <i>om_oss.html</i></h4>
+              <p>Her skal kunden få litt mer info om bedriftens utvikling, historie og hvem som står for baksten. Ettersom det er en familiebedrift er historien til bakeriet sentralt. Dette vil vi få frem i form av bilder av familien og hvis mulig eldre bilder av bakeriet. Det vil ikke være en veldig komplisert side med flere store overskrifter, men heller en litt lenger tekst. Teksten vil ha en godt leselig størrelse, og vil være delt inn i avsnitt slik at den blir lettlest.</p>
+              <p>Avsnittene på siden vil handle om:</p>
+              <ul>
+                <li>Introduksjon</li>
+                <li>Litt kjapp praktisk info - er ofte en del kunder som går på “om oss” hvis de vil vite litt info. Selv om vi bruker siden til historie, vil vi gi telefonnummer, adresse og mail som brukeren vil ha tak i.</li>
+                <li>Utviklingen gjennom årene</li>
+              </ul>
+              <img src="images/om_oss.jpg" alt="Bilde av om oss- siden">
+              <p class ="bildetekst">Bilde 5: Om oss-siden.</p>
+              <br>
+
+            <h4>3. Sortiment - <i>sortiment.html</i></h4>
+            <p>Denne siden skal ha en kort beskrivelse av de forskjellige produktgruppene bakeriet tilbyr, med mange bilder. Øverst skal det være tre knapper, og når du trykker på dem blir du tatt nedover på siden til seksjonen som tilsvarer det du trykket på. Det er også mulig å scrolle nedover på siden. Hver seksjon har ett større bilde, side om side med en tekstboks som forteller om utvalget, samt seks mindre bilder som illustrerer utvalget. Det blir mulig å klikke på bildene for å gjøre de større, og så kan man bla gjennom bildene som et bildegalleri. Dette gjør siden raskere å laste inn, og er en fin måte å vise fram bildene på. Denne siden har med andre ord mye fokus på bilder.</p>
+            <img src="images/sortiment.jpg" alt="Bilde av sortiment-siden">
+            <p class ="bildetekst">Bilde 6: Sortiment-siden.</p>
+            <br>
+
+            <h4>4. Allergier - <i>allergi.html</i></h4>
+            <p></p> <!--Fyll inn tekst!!!-->
+            <img src="images/allergi.jpg" alt="Bilde av allergi-siden">
+            <p class="bildetekst">Bilde 7: Allergi-siden</p>
+            <br>
+
+            <h4>5. Bestilling - <i>bestilling.html</i></h4>
+            <p></p>
+            <!--Bilde av siden + bildetekst-->
+            <br>
+        </section>
+
+        <section class="box">
+            <h3>7. Minstekrav: JavaScript</h3>
+            <p>Vi planlegger å fordele arbeidet med JavaScript på denne måten:</p>
+            <p>Maria har ansvaret for slideshowet på hjem-siden. Slideshowet skal bestå av bilder med sitater fra kommentarfelt på Waagans Facebookside lagt over. Dette er hovedfunksjonen på hjem-siden, og skal være et pent og morsomt førsteinntrykk. Vi tenker 3-5 bilder. Bildene vises i noen sekunder, og glir så videre og gir plass til det neste bildet.</p>
+            <p>Åse og Solveig kommer til å samarbeide med å lage en god, funksjonell meny øverst på siden. Rent visuelt vil vi prøve å gi ulike utseender på når de forskjellige sidene ikke besøkes, når de besøkes, og om du holder musa over linkene. I tillegg vil du kunne se forskjell på når du trykker på linken - fargen på skriften vil bli lysere i det lille øyeblikket du trykker. Når vi legger inn en slik funksjon vil brukeren av nettsiden enkelt ha kontroll på hvor en befinner seg til enhver tid. Det er også veldig tydelig for en bruker å fysisk se at en trykker på linken før en kommer inn på siden.</p>
+            <p>Ingrid har ansvaret for å lage bildegalleriet på Sortimentsiden. Denne fungerer slik at bildene lastes inn på siden i et lite format, og kan gjøre større ved å klikke på de. Når man klikker på bildet, blir man tatt inn i et bildegalleri hvor man kan bla seg gjennom bildene ved å trykke på ‘forrige’- og ‘neste’ knapper som kommer opp.</p>
+            <p>Jane har ansvaret for å lage pop-up sider som kommer opp når man trykker på de forskjellige valgene på bestillingssiden. (Jane legger til klarere beskrivelse)</p>
+            <!--Jane legg til beskrivelse!!!-->
+        </section>
+
+        <section class="box" id="lastbox">
+            <h3>8. Mappestruktur / Plan med arbeidsfordeling og frister</h3>
+            <p>Alle filer vil bli satt inn i en mappe kalt “Waagans” med denne strukturen:</p>
+
+            <p>Waagans</p>
+            <ul>
+              <li>hjem.html</li>
+              <li>sortiment.html</li>
+              <li>om_oss.html</li>
+              <li>allergi.html</li>
+              <li>bestilling.html</li>
+              <li>bilder/
+                <ul>
+                  <li>symbol_tlf.png</li>
+                  <li>symbol_mail.png</li>
+                  <li>symbol_cakeiteasy.png</li>
+                  <li>logo1.png</li>
+                  <li>logo2.png</li>
+                  <li>hjem_bilde1</li>
+                  <li>...</li>
+                  <li>om_oss_bile1.jpg</li>
+                  <li>...</li>
+                  <li>sortiment_bilde1.jpg</li>
+                  <li>...</li>
+                  <li>allergi_bilde1.jpg</li>
+                  <li>...</li>
+                  <li>bestilling_bilde1.jpg</li>
+                  <li>...</li>
+                </ul>
+              </li>
+              <li>scripts/
+                <ul>
+                  <li>slide_show.js</li>
+                  <li>menybar.js</li>
+                  <li>bildegalleri.js</li>
+                  <li>pop_up_bestilling.js</li>
+                </ul>
+              </li>
+              <li>CSS/
+                <ul>
+                  <li>style.css</li>
+                </ul>
+              </li>
+            </ul>
+
+            <br>
+
+            <h4>Arbeidsfordeling og frister</h4>
+
+            <table style="width:100%">
+              <tr>
+                <th>Navn</th>
+                <th>Beskrivelse</th>
+                <th>Dato</th>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Levere P2</td>
+                <td>09.10.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Skrive et utkast til CSS</td>
+                <td>10.10.18</td>
+              </tr>
+              <tr>
+                <td>Maria</td>
+                <td>Gjøre ferdig hjem.html</td>
+                <td>14.10.18</td>
+              </tr>
+              <tr>
+                <td>Åse</td>
+                <td>Gjøre ferdig om_oss.html</td>
+                <td>14.10.18</td>
+              </tr>
+              <tr>
+                <td>Ingrid</td>
+                <td>Gjøre ferdig sortiment.html</td>
+                <td>14.10.18</td>
+              </tr>
+              <tr>
+                <td>Solveig</td>
+                <td>Gjøre ferdig allergi.html</td>
+                <td>14.10.18</td>
+              </tr>
+              <tr>
+                <td>Jane</td>
+                <td>Gjøre ferdig bestilling.html</td>
+                <td>14.10.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Forbedre funksjonelle krav</td>
+                <td>17.10.18</td>
+              </tr>
+              <tr>
+                <td>Maria</td>
+                <td>Gjøre ferdig slide_show.js til hjem-siden</td>
+                <td>01.10.18</td>
+              </tr>
+              <tr>
+                <td>Solveig og Åse</td>
+                <td>Gjøre ferdig menybar.js (nav-baren)</td>
+                <td>01.10.18</td>
+              </tr>
+              <tr>
+                <td>Ingrid (og Maria)</td>
+                <td>Gjøre ferdig bildegalleri.js til sortiment-siden/td>
+                <td>01.10.18</td>
+              </tr>
+              <tr>
+                <td>Jane</td>
+                <td>Gjøre ferdig pop_up_bestilling.js til bestillings-siden</td>
+                <td>01.10.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Gjøre ferdig CSS-filen</td>
+                <td>03.10.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>All koding ferdig</td>
+                <td>03.11.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Feilsøking/dobbeltsjekking av all kode</td>
+                <td>04.11.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Ferdig med testing (minst 3 personer hver)</td>
+                <td>08.11.18</td>
+              </tr>
+              <tr>
+                <td>Gruppa</td>
+                <td>Levere P4</td>
+                <td>10.11.18</td>
+              </tr>
+            </table>
+            <br>
+
+        </section>
+    </body>
+</html>
