@@ -1,0 +1,42 @@
+body {
+  text-align:justify;
+  background-color: #F9F2EC;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Georgia;
+
+}
+img {
+  width: 80%;
+}
+
+.hele {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.bildetekst {
+    font-size: 12px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
+.box {
+  border: black solid 1px;
+  margin: 0% 10% 0% 10%;
+  padding: 5px 15px 5px 15px;
+}
+
+#lastbox { /*Husk å gi den siste boksen denne id-en!!*/
+  margin-bottom: 25px;
+}
